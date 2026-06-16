@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SILLAGE — Maison de Parfum</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230c0a10'/%3E%3Cpath d='M32 12c8 8-6 12 0 20s-8 12 0 20' stroke='%23d4af6f' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&family=Noto+Serif+Armenian:wght@400;500;600;700&family=Noto+Sans+Armenian:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg-aurora"></div>
+<div class="bg-grain"></div>
+<div id="cursorGlow"></div>
+
+<!-- ═════════ PRELOADER ═════════ -->
+<div id="loader">
+  <svg class="loader-mono" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="none" stroke="#d4af6f" stroke-width="1" opacity=".4"/><path d="M32 12c8 8-6 12 0 20s-8 12 0 20" stroke="#d4af6f" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
+  <div class="loader-word"><span style="animation-delay:.05s">S</span><span style="animation-delay:.12s">I</span><span style="animation-delay:.19s">L</span><span style="animation-delay:.26s">L</span><span style="animation-delay:.33s">A</span><span style="animation-delay:.40s">G</span><span style="animation-delay:.47s">E</span></div>
+  <div class="loader-bar"><i></i></div>
+</div>
+
+<!-- ═════════ NAV ═════════ -->
+<nav id="nav">
+  <a class="logo" href="#" aria-label="Sillage home">
+    <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="none" stroke="#d4af6f" stroke-width="1.2" opacity=".55"/><circle cx="32" cy="32" r="24" fill="none" stroke="#d4af6f" stroke-width=".6" opacity=".3"/><path d="M32 12c8 8-6 12 0 20s-8 12 0 20" stroke="url(#lg)" stroke-width="2.6" fill="none" stroke-linecap="round"/><defs><linearGradient id="lg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0dcae"/><stop offset="1" stop-color="#b3743a"/></linearGradient></defs></svg>
+    <span class="logo-text"><span class="logo-name">SILLAGE</span><span class="logo-sub" data-i18n="logoSub">maison de parfum</span></span>
+  </a>
+  <div class="nav-links">
+    <a href="#collection" data-i18n="navCollection">Collection</a>
+    <a href="#quiz" data-i18n="navQuiz">Scent quiz</a>
+    <a href="#philosophy" data-i18n="navPhilosophy">Philosophy</a>
+    <a href="#contactSec" data-i18n="navContact">Contact</a>
+  </div>
+  <div class="nav-search" id="navSearch">
+    <div class="ns-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
+      <input id="navSearchInput" type="text" autocomplete="off" aria-label="Search perfumes">
+      <span class="ns-kbd">⌘K</span>
+    </div>
+    <div class="ns-results" id="nsResults"></div>
+  </div>
+  <div class="nav-actions">
+    <button class="icon-btn" id="themeToggle" aria-label="Day / night mode">
+      <span class="ti ti-moon"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></span>
+      <span class="ti ti-sun"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.4"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M4.8 4.8l1.7 1.7M17.5 17.5l1.7 1.7M19.2 4.8l-1.7 1.7M6.5 17.5l-1.7 1.7"/></svg></span>
+    </button>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button data-lang="hy">ՀԱՅ</button>
+      <button data-lang="en" class="active">EN</button>
+      <button data-lang="ru">РУ</button>
+    </div>
+    <button class="icon-btn" id="favOpen" aria-label="Favorites">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21.2l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+      <span class="count" id="favCount">0</span>
+    </button>
+    <button class="icon-btn" id="cartOpen" aria-label="Cart">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 7h12l1.5 13.5a1 1 0 0 1-1 1.1H5.5a1 1 0 0 1-1-1.1L6 7z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg>
+      <span class="count" id="cartCount">0</span>
+    </button>
+    <button id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#collection" data-i18n="navCollection">Collection</a>
+  <a href="#spotlight" data-i18n="navSpotlight">Of the week</a>
+  <a href="#quiz" data-i18n="navQuiz">Scent quiz</a>
+  <a href="#philosophy" data-i18n="navPhilosophy">Philosophy</a>
+  <a href="#faqSec" data-i18n="navFaq">FAQ</a>
+  <a href="#contact" data-i18n="navContact">Contact</a>
+  <div class="lang-switch mm-lang" role="group" aria-label="Language">
+    <button data-lang="hy">ՀԱՅ</button>
+    <button data-lang="en" class="active">EN</button>
+    <button data-lang="ru">РУ</button>
+  </div>
+</div>
+
+<!-- ═════════ HERO ═════════ -->
+<header class="hero">
+  <canvas id="smoke"></canvas>
+  <div class="hero-inner">
+    <div class="hero-eyebrow" data-i18n="heroEyebrow">The art of leaving a trace</div>
+    <h1 data-i18n-html="heroTitle">Every scent is a <em>memory</em><br>waiting to be born</h1>
+    <p class="hero-sub" data-i18n="heroSub">A curated universe of 200 legendary fragrances — from Tom Ford's dark orchids to Creed's mountain air. Find the one that speaks your name.</p>
+    <div class="hero-ctas">
+      <a href="#collection" class="btn btn-gold" data-i18n="heroCta1">Explore the collection</a>
+      <a href="#philosophy" class="btn btn-ghost" data-i18n="heroCta2">Our philosophy</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><b data-count="200">0</b><span data-i18n="statFrag">Fragrances</span></div>
+      <div class="stat"><b data-count="50">0</b><span data-i18n="statBrands">Maisons</span></div>
+      <div class="stat"><b data-count="5">0</b><span data-i18n="statFam">Scent families</span></div>
+    </div>
+  </div>
+  <div class="scroll-hint"><span data-i18n="scroll">Scroll</span><i></i></div>
+</header>
+
+<!-- ═════════ BRAND MARQUEE ═════════ -->
+<div class="marquee" aria-hidden="true"><div class="marquee-track" id="marqueeTrack"></div></div>
+
+
+<!-- ═════════ CINEMA — SCROLL UNBOXING ═════════ -->
+<section class="cinema" id="cinema">
+  <div class="cinema-sticky">
+    <div class="cinema-bgword" aria-hidden="true">SILLAGE</div>
+    <div class="cinema-stage">
+
+      <!-- Black Orchid box -->
+      <div class="cn-box" id="cnBox">
+        <svg viewBox="0 0 300 260" class="cn-box-body" aria-hidden="true">
+          <defs>
+            <linearGradient id="boBody" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#1c1a18"/><stop offset=".5" stop-color="#0d0c0b"/><stop offset="1" stop-color="#070606"/>
+            </linearGradient>
+            <linearGradient id="boSheen" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="rgba(255,255,255,0)"/><stop offset=".5" stop-color="rgba(255,255,255,.08)"/><stop offset="1" stop-color="rgba(255,255,255,0)"/>
+            </linearGradient>
+          </defs>
+          <rect x="20" y="30" width="260" height="220" rx="4" fill="url(#boBody)" stroke="#3a352e" stroke-width="1"/>
+          <rect x="20" y="30" width="260" height="220" rx="4" fill="url(#boSheen)"/>
+          <rect x="34" y="44" width="232" height="192" rx="2" fill="none" stroke="#c9a96e" stroke-width=".8" opacity=".85"/>
+          <text id="cnBoxBrand" x="150" y="128" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="25" letter-spacing="7" fill="#e8d9bd">TOM FORD</text>
+          <text id="cnBoxName" x="150" y="158" text-anchor="middle" font-family="Jost, sans-serif" font-size="10" letter-spacing="6" fill="#c9a96e">BLACK ORCHID</text>
+          <text id="cnBoxVol" x="150" y="222" text-anchor="middle" font-family="Jost, sans-serif" font-size="6.5" letter-spacing="4" fill="#6e6253">EAU DE PARFUM · 100 ML</text>
+        </svg>
+        <svg viewBox="0 0 312 78" class="cn-box-lid" id="cnLid" aria-hidden="true">
+          <rect x="6" y="16" width="300" height="56" rx="4" fill="url(#boBody)" stroke="#3a352e" stroke-width="1"/>
+          <rect x="6" y="16" width="300" height="56" rx="4" fill="url(#boSheen)"/>
+          <rect x="18" y="26" width="276" height="36" rx="2" fill="none" stroke="#c9a96e" stroke-width=".8" opacity=".85"/>
+          <text id="cnLidBrand" x="156" y="50" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="17" letter-spacing="6" fill="#e8d9bd">TOM FORD</text>
+        </svg>
+      </div>
+
+      <!-- the bottle -->
+      <div class="cn-bottle-wrap" id="cnBottleWrap">
+        <img id="cnBottle" alt="" referrerpolicy="no-referrer">
+        <div class="cn-glow" id="cnGlow"></div>
+      </div>
+
+      <!-- spray: mist droplets + sparkles + streaks -->
+      <div class="cn-spray" id="cnSpray"></div>
+      <div class="cn-mist" id="cnMist"></div>
+      <div class="cn-haze" id="cnHaze"></div>
+
+      <!-- captions -->
+      <div class="cn-caption cn-c1" id="cnC1"><span class="cn-num">01</span><span data-i18n="cnT1">Unwrap the silence</span></div>
+      <div class="cn-caption cn-c2" id="cnC2"><span class="cn-num">02</span><span data-i18n="cnT2">Set the spirit free</span></div>
+      <div class="cn-caption cn-c3" id="cnC3"><span class="cn-num">03</span><span data-i18n="cnT3">Become unforgettable</span></div>
+
+      <!-- finale -->
+      <div class="cn-finale" id="cnFinale">
+        <div class="cn-f-brand" id="cnFBrand"></div>
+        <div class="cn-f-name" id="cnFName"></div>
+        <button class="btn btn-gold" id="cnFBtn" data-i18n="cnBtn">Discover this fragrance</button>
+      </div>
+
+      <div class="cn-progress" aria-hidden="true"><i id="cnProgressBar"></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ BENEFITS ═════════ -->
+<section style="padding-top:30px;padding-bottom:30px">
+  <div class="benefits reveal">
+    <div class="benefit">
+      <div class="b-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l2.6 5.6L20 8.5l-4 4 1 6L12 15.7 7 18.5l1-6-4-4 5.4-.9z"/></svg></div>
+      <b data-i18n="ben1b">100% authentic</b><span data-i18n="ben1s">Every bottle sourced directly from the maison or official distributor.</span>
+    </div>
+    <div class="benefit">
+      <div class="b-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z"/><circle cx="7" cy="18.5" r="1.6"/><circle cx="17.5" cy="18.5" r="1.6"/></svg></div>
+      <b data-i18n="ben2b">Free delivery</b><span data-i18n="ben2s">Across Yerevan within 24 hours. Worldwide shipping available.</span>
+    </div>
+    <div class="benefit">
+      <div class="b-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 3h6v4a3 3 0 0 1-6 0V3zM7 9h10v11a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V9z"/></svg></div>
+      <b data-i18n="ben3b">Free samples</b><span data-i18n="ben3s">Two complimentary 2ml samples with every order — discover before you commit.</span>
+    </div>
+    <div class="benefit">
+      <div class="b-ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18M12 8v13M12 8c-3 0-5-1.4-5-3a2 2 0 0 1 4-.8c.3.8.7 2.2 1 3.8.3-1.6.7-3 1-3.8a2 2 0 0 1 4 .8c0 1.6-2 3-5 3z"/></svg></div>
+      <b data-i18n="ben4b">Gift wrapping</b><span data-i18n="ben4s">Signature gold box, silk ribbon and a handwritten note — on the house.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ QUOTES ═════════ -->
+<section class="quote-band" id="quotes">
+  <span class="quote-mark">“</span>
+  <p class="quote-text" id="quoteText"></p>
+  <div class="quote-author" id="quoteAuthor"></div>
+  <div class="quote-dots" id="quoteDots"></div>
+</section>
+
+<!-- ═════════ SPOTLIGHT ═════════ -->
+<section id="spotlight" style="padding-top:40px">
+  <div class="spotlight reveal">
+    <div class="spot-visual"><div class="spot-ring"></div><div class="bottle" id="spotBottle"></div></div>
+    <div>
+      <span class="spot-label">✦ <span data-i18n="spotLabel">Fragrance of the week</span></span>
+      <div class="spot-brand" id="spotBrand"></div>
+      <h2 class="spot-name" id="spotName"></h2>
+      <p class="spot-desc" id="spotDesc"></p>
+      <div class="spot-meta">
+        <div><b id="spotPrice"></b><span data-i18n="spotPriceL">Price</span></div>
+        <div><b id="spotRating"></b><span data-i18n="spotRatingL">Rating</span></div>
+        <div><b id="spotReviews"></b><span data-i18n="spotReviewsL">Reviews</span></div>
+      </div>
+      <div class="spot-ctas">
+        <button class="btn btn-gold" id="spotView" data-i18n="spotView">View details</button>
+        <button class="btn btn-ghost" id="spotAdd" data-i18n="addToCart">Add to cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ COLLECTION ═════════ -->
+<section id="collection">
+  <div class="sec-head reveal">
+    <div class="sec-eyebrow" data-i18n="colEyebrow">The collection</div>
+    <h2 class="sec-title" data-i18n-html="colTitle">Two hundred ways<br>to be <em>unforgettable</em></h2>
+    <p class="sec-sub" data-i18n="colSub">Search by name, note or maison. Filter by family and price. Hover over any bottle — it will turn for you.</p>
+  </div>
+
+  <div class="toolbar reveal">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
+      <input id="searchInput" type="text" autocomplete="off">
+    </div>
+    <div class="select-wrap"><select id="brandSelect"></select></div>
+    <div class="select-wrap"><select id="sortSelect"></select></div>
+  </div>
+
+  <div class="chips reveal" id="catChips"></div>
+
+  <div class="range-row reveal">
+    <span class="range-label" data-i18n="priceUpTo">Price up to</span>
+    <input type="range" id="priceRange" min="65" max="545" value="545" step="5">
+    <span class="range-val" id="priceVal">$545</span>
+  </div>
+
+  <div class="result-meta">
+    <span id="resultCount"></span>
+    <button class="reset-link" id="resetBtn" data-i18n="reset">Reset filters</button>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <div class="load-wrap"><button class="btn btn-ghost" id="loadMore" data-i18n="loadMore">Show more</button></div>
+</section>
+
+<!-- ═════════ SCENT QUIZ ═════════ -->
+<section id="quiz">
+  <div class="sec-head reveal">
+    <div class="sec-eyebrow" data-i18n="quizEyebrow">Scent quiz</div>
+    <h2 class="sec-title" data-i18n-html="quizTitle">Let the fragrance<br><em>find you</em></h2>
+    <p class="sec-sub" data-i18n="quizSub">Four questions. Thirty seconds. Three perfumes chosen for who you are.</p>
+  </div>
+  <div class="quiz-wrap reveal" id="quizWrap"></div>
+</section>
+
+
+<!-- ═════════ RECENTLY VIEWED ═════════ -->
+<section id="recentSec" style="display:none;padding-top:30px">
+  <div class="sec-head reveal">
+    <div class="sec-eyebrow" data-i18n="rvEyebrow">Your trail</div>
+    <h2 class="sec-title" data-i18n-html="rvTitle">Recently <em>viewed</em></h2>
+  </div>
+  <div class="rv-strip" id="rvStrip"></div>
+</section>
+
+<!-- ═════════ PHILOSOPHY ═════════ -->
+<section id="philosophy">
+  <div class="about-band">
+    <div class="about-visual reveal">
+      <svg viewBox="0 0 400 460" preserveAspectRatio="xMidYMid meet">
+        <defs>
+          <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0dcae"/><stop offset="1" stop-color="#b3743a"/></linearGradient>
+          <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="rgba(240,220,174,.16)"/><stop offset="1" stop-color="rgba(212,175,111,.05)"/></linearGradient>
+        </defs>
+        <g class="float-anim">
+          <rect x="150" y="150" width="100" height="200" rx="16" fill="url(#glass)" stroke="#d4af6f" stroke-width="1.4"/>
+          <rect x="165" y="240" width="70" height="95" rx="8" fill="rgba(179,116,58,.35)"/>
+          <rect x="178" y="118" width="44" height="34" rx="6" fill="none" stroke="#d4af6f" stroke-width="1.4"/>
+          <rect x="186" y="96" width="28" height="24" rx="5" fill="url(#bg1)"/>
+          <path d="M200 80 c20 -22 -14 -30 0 -52" stroke="#d4af6f" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".7"><animate attributeName="opacity" values=".25;.85;.25" dur="4s" repeatCount="indefinite"/></path>
+          <path d="M186 84 c-16 -18 12 -26 -2 -44" stroke="#d4af6f" stroke-width="1.2" fill="none" stroke-linecap="round" opacity=".4"><animate attributeName="opacity" values=".6;.15;.6" dur="5s" repeatCount="indefinite"/></path>
+          <path d="M214 86 c18 -16 -10 -28 4 -46" stroke="#d4af6f" stroke-width="1.2" fill="none" stroke-linecap="round" opacity=".4"><animate attributeName="opacity" values=".15;.7;.15" dur="4.5s" repeatCount="indefinite"/></path>
+        </g>
+        <ellipse cx="200" cy="382" rx="86" ry="13" fill="rgba(212,175,111,.18)"><animate attributeName="rx" values="86;72;86" dur="6s" repeatCount="indefinite"/></ellipse>
+        <style>.float-anim{animation:fl 6s ease-in-out infinite}@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}</style>
+      </svg>
+    </div>
+    <div class="about-copy reveal">
+      <div class="sec-eyebrow" style="margin-bottom:18px" data-i18n="philoEyebrow">Philosophy</div>
+      <h2 data-i18n-html="philoTitle">Perfume is the most <em>intimate</em> form of memory</h2>
+      <p data-i18n="philoP1">Sillage — the French word for the scented trail a person leaves behind. It is what remains of you in a room after you have gone. We believe choosing a fragrance is choosing how you will be remembered.</p>
+      <p data-i18n="philoP2">Every bottle in this collection was selected by hand — icons that defined eras, and quiet masterpieces known only to those who seek them.</p>
+      <div class="about-points">
+        <div class="point"><i>I</i><div><b data-i18n="pt1b">Curated, not collected</b><span data-i18n="pt1s">200 fragrances chosen for character, not popularity.</span></div></div>
+        <div class="point"><i>II</i><div><b data-i18n="pt2b">Five scent families</b><span data-i18n="pt2s">Floral, woody, oriental, fresh and gourmand — mapped for easy discovery.</span></div></div>
+        <div class="point"><i>III</i><div><b data-i18n="pt3b">Notes laid bare</b><span data-i18n="pt3s">Every pyramid revealed: top, heart and base, so you know what you wear.</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ TESTIMONIALS ═════════ -->
+<section id="testimonials" style="padding-top:40px">
+  <div class="sec-head reveal">
+    <div class="sec-eyebrow" data-i18n="testiEyebrow">Voices</div>
+    <h2 class="sec-title" data-i18n-html="testiTitle">What our guests<br><em>remember</em></h2>
+  </div>
+  <div class="testi-wrap reveal" id="testiWrap"></div>
+</section>
+
+<!-- ═════════ FAQ ═════════ -->
+<section id="faqSec" style="padding-top:40px">
+  <div class="sec-head reveal">
+    <div class="sec-eyebrow" data-i18n="faqEyebrow">Questions</div>
+    <h2 class="sec-title" data-i18n-html="faqTitle">Everything you<br>wanted to <em>ask</em></h2>
+  </div>
+  <div class="faq-wrap reveal" id="faqWrap"></div>
+</section>
+
+<!-- ═════════ CONTACT ═════════ -->
+<section id="contactSec">
+  <div class="sec-head reveal">
+    <div class="sec-eyebrow" data-i18n="conEyebrow">Contact</div>
+    <h2 class="sec-title" data-i18n-html="conTitle">Come closer —<br>we don't <em>bite</em>, we spritz</h2>
+  </div>
+  <div class="contact-grid reveal">
+    <div>
+      <div class="c-info-item">
+        <div class="c-ico"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <div><b data-i18n="conAddrL">Boutique</b><span data-i18n="conAddr">Northern Avenue 5, Yerevan, Armenia</span><small data-i18n="conHours">Mon–Sun · 10:00 — 21:00</small></div>
+      </div>
+      <div class="c-info-item">
+        <div class="c-ico"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></div>
+        <div><b data-i18n="conPhoneL">Phone</b><span>+374 11 555 777</span><small data-i18n="conPhoneS">Also on Telegram & WhatsApp</small></div>
+      </div>
+      <div class="c-info-item">
+        <div class="c-ico"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+        <div><b data-i18n="conMailL">Email</b><span>bonjour@sillage.am</span><small data-i18n="conMailS">We reply within one working day</small></div>
+      </div>
+      <div class="socials">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 9h3V6h-3a3 3 0 0 0-3 3v2H8v3h3v7h3v-7h3l1-3h-4V9z"/></svg></a>
+        <a href="#" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m21 4-18 7.5 5.5 2L10 19l3-3.5 4.5 3z"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14 4v9.5a3.5 3.5 0 1 1-3.5-3.5M14 4c.4 2.6 2 4.2 5 4.5"/></svg></a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="f-row">
+        <div class="f-group"><label data-i18n="fName">Name</label><input id="cfName" type="text"></div>
+        <div class="f-group"><label data-i18n="fMail">Email</label><input id="cfMail" type="email"></div>
+      </div>
+      <div class="f-group"><label data-i18n="fSubj">Subject</label><input id="cfSubj" type="text"></div>
+      <div class="f-group"><label data-i18n="fMsg">Message</label><textarea id="cfMsg" rows="5"></textarea></div>
+      <button class="btn btn-gold" style="width:100%" id="cfSend" data-i18n="fSend">Send message</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════ SECOND QUOTE BAND ═════════ -->
+<section class="quote-band" style="padding-top:30px">
+  <span class="quote-mark">“</span>
+  <p class="quote-text quote-static" data-i18n="bigQuote">You are never fully dressed without a trace of scent in the air behind you.</p>
+  <div class="quote-author">— SILLAGE</div>
+</section>
+
+<!-- ═════════ FOOTER ═════════ -->
+<footer id="contact">
+  <div class="foot-grid">
+    <div class="foot-brand">
+      <a class="logo" href="#">
+        <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="none" stroke="#d4af6f" stroke-width="1.2" opacity=".55"/><path d="M32 12c8 8-6 12 0 20s-8 12 0 20" stroke="#d4af6f" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>
+        <span class="logo-text"><span class="logo-name">SILLAGE</span><span class="logo-sub" data-i18n="logoSub">maison de parfum</span></span>
+      </a>
+      <p data-i18n="footAbout">A curated universe of legendary fragrances. Born from the belief that a scent is the most honest autobiography.</p>
+    </div>
+    <div>
+      <div class="foot-h" data-i18n="footNav">Navigation</div>
+      <ul class="foot-links">
+        <li><a href="#collection" data-i18n="navCollection">Collection</a></li>
+        <li><a href="#philosophy" data-i18n="navPhilosophy">Philosophy</a></li>
+        <li><a href="#quotes" data-i18n="navInspiration">Inspiration</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot-h" data-i18n="footFam">Families</div>
+      <ul class="foot-links" id="footFamilies"></ul>
+    </div>
+    <div>
+      <div class="foot-h" data-i18n="footNews">Newsletter</div>
+      <div class="newsletter">
+        <input type="email" id="nlInput">
+        <button id="nlBtn" data-i18n="nlBtn">Join</button>
+      </div>
+      <p class="foot-note" data-i18n="nlNote">One letter a month. Only new arrivals and stories worth telling.</p>
+    </div>
+  </div>
+  <div class="copyright">
+    <span data-i18n="copy">© 2026 SILLAGE · Maison de Parfum. All rights reserved.</span>
+    <span data-i18n="madeWith">Crafted with patience & bergamot</span>
+  </div>
+</footer>
+
+<!-- ═════════ PRODUCT MODAL ═════════ -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+    <div class="modal-visual"><div class="bottle" id="modalBottle"></div></div>
+    <div class="modal-info" id="modalInfo"></div>
+  </div>
+</div>
+
+<!-- ═════════ CART DRAWER ═════════ -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="cartDrawer">
+  <div class="drawer-head"><h3 data-i18n="cartTitle">Your selection</h3><button class="icon-btn" id="cartClose" aria-label="Close">✕</button></div>
+  <div class="drawer-body" id="cartBody"></div>
+  <div class="drawer-foot">
+    <div class="total-row"><span data-i18n="total">Total</span><b id="cartTotal">$0</b></div>
+    <button class="btn btn-gold" style="width:100%" id="checkoutBtn" data-i18n="checkout">Proceed to checkout</button>
+  </div>
+</aside>
+
+<!-- ═════════ FAVORITES DRAWER ═════════ -->
+<aside class="drawer" id="favDrawer">
+  <div class="drawer-head"><h3 data-i18n="favTitle">Favorites</h3><button class="icon-btn" id="favClose" aria-label="Close">✕</button></div>
+  <div class="drawer-body" id="favBody"></div>
+</aside>
+
+<div id="toast"></div>
+<button id="toTop" aria-label="Back to top">↑</button>
+<script src="app.js"></script>
+</body>
+</html>

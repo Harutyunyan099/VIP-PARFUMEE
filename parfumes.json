@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 1,
+    "name": "Bleu de Chanel",
+    "brand": "Chanel",
+    "category": "txamardu",
+    "tagline": "Ազատ, թարմ, ժամանակակից.",
+    "price": "65.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.chanel.com/images/t_one/w_0.51,h_0.51,c_crop/q_auto:good,f_auto,fl_lossy,dpr_1.1/w_1920/bleu-de-chanel-eau-de-parfum-spray-3-4fl-oz--packshot-default-107360-9564894232606.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chanel Égoïste",
+    "brand": "Chanel",
+    "category": "txamardu",
+    "tagline": "Համարձակ, ոճային, ինքնավստահ.",
+    "price": "60.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.chanel.com/images/t_one/w_0.51,h_0.51,c_crop/q_auto:good,f_auto,fl_lossy,dpr_1.1/w_1920/egoiste-eau-de-toilette-spray-3-4fl-oz--packshot-default-114460-9564892069918.jpg"
+  },
+  {
+    "id": 3,
+    "name": "MANCERA — Red Tobacco Intense",
+    "brand": "Mancera",
+    "category": "txamardu",
+    "tagline": "Կրակ, ծխախոտ, ինտենսիվ.",
+    "price": "65.000 դ.",
+    "volume": "120մլ",
+    "image": "https://prodajaparfema.rs/wp-content/uploads/2024/04/mancera-red-tobacco-intense.png"
+  },
+  {
+    "id": 4,
+    "name": "AMOUAGE — Epic Man",
+    "brand": "Amouage",
+    "category": "txamardu",
+    "tagline": "Արևելյան, էպիկ, անմոռանալի.",
+    "price": "115.000 դ.",
+    "volume": "100մլ",
+    "image": "https://perfumeuae.com/wp-content/uploads/2022/08/epic-men.png"
+  },
+  {
+    "id": 5,
+    "name": "GIVENCHY — Gentleman",
+    "brand": "Givenchy",
+    "category": "txamardu",
+    "tagline": "Էլեգանտ, պատվաբեր, ժամանակակից.",
+    "price": "60.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.givenchybeauty.com/on/demandware.static/-/Sites-givenchy-beauty-master/default/dw831e452d/Engraving_Fragrance/GENTLEMAN/DESKTOP/P000112/GG_RP_200ML_SKU_DESKTOP_FINAL.png"
+  },
+  {
+    "id": 6,
+    "name": "MARC-ANTOINE BARROIS — B683",
+    "brand": "Marc-Antoine Barrois",
+    "category": "txamardu",
+    "tagline": "Ֆրանսիական նրբություն, ոճ, կաշի.",
+    "price": "80.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.perfumelounge.eu/_next/image?url=https:%2F%2Fmedia.perfumelounge.eu%2Ffile%2Fperfumelounge%2Fperfumelounge%2Foriginal_images%2FMarc-Antoine_Barrois_-_B683_eau_de_parfum_100_ml.png&w=1080&q=100"
+  },
+  {
+    "id": 7,
+    "name": "CREED — Aventus",
+    "brand": "Creed",
+    "category": "txamardu",
+    "tagline": "Ձողև հաջողություն — լեգենդ.",
+    "price": "135.000 դ.",
+    "volume": "100մլ",
+    "image": "https://website-transformer.baltzar.com/uploads/2019/11/Creed-Aventus-Eau-de-Parfum-100ml.png"
+  },
+  {
+    "id": 8,
+    "name": "DIOR — Dior Homme Parfum",
+    "brand": "Dior",
+    "category": "txamardu",
+    "tagline": "Iris, մոխրոտ, անզուգական.",
+    "price": "75.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.25f5241016f63c7e88eca268c98fef5d?rik=mf%2b2jWjBFU%2fYPQ&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 9,
+    "name": "MOSCHINO — Toy Boy",
+    "brand": "Moschino",
+    "category": "txamardu",
+    "tagline": "Ջերմ, ստեղծագործ, ուրախ.",
+    "price": "35.000 դ.",
+    "volume": "100մլ",
+    "image": "https://media.ulta.com/i/ulta/2561874?w=1080&h=1080&fmt=auto"
+  },
+  {
+    "id": 10,
+    "name": "DOLCE & GABBANA — The One EDP",
+    "brand": "Dolce & Gabbana",
+    "category": "txamardu",
+    "tagline": "Ջերմ, ռոմանտիկ, կատարյալ.",
+    "price": "45.000 դ.",
+    "volume": "100մլ",
+    "image": "https://perfumegyaan.com/wp-content/uploads/2023/07/The-one-EDP.png"
+  },
+  {
+    "id": 11,
+    "name": "JEAN PAUL GAULTIER — Le Male",
+    "brand": "Jean Paul Gaultier",
+    "category": "txamardu",
+    "tagline": "Լավանդա, թարմություն, դասական.",
+    "price": "50.000 դ.",
+    "volume": "125մլ",
+    "image": "https://media.ulta.com/i/ulta/2082116?w=720&fmt=png"
+  },
+  {
+    "id": 12,
+    "name": "LALIQUE — Ombre Noire",
+    "brand": "Lalique",
+    "category": "txamardu",
+    "tagline": "Խորհրդավոր, մուգ, հրապուրիչ.",
+    "price": "33.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.myperfumeshop.com.au/cdn/shop/products/lalique-ombre-noire-edp-for-men-perfume-cologne-624061.png?v=1702195511&width=2048"
+  },
+  {
+    "id": 13,
+    "name": "DAVIDOFF — Cool Water",
+    "brand": "Davidoff",
+    "category": "txamardu",
+    "tagline": "Ջուր, թարմություն, ազատություն.",
+    "price": "22.000 դ.",
+    "volume": "125մլ",
+    "image": "https://10fragrances.com/wp-content/uploads/Untitled-design-16.png"
+  },
+  {
+    "id": 14,
+    "name": "ALFRED DUNHILL — Icon",
+    "brand": "Alfred Dunhill",
+    "category": "txamardu",
+    "tagline": "Ոճ, կոնֆիդենցիա, բրիտանական.",
+    "price": "33.000 դ.",
+    "volume": "100մլ",
+    "image": "https://cdn.scentbird.com/product/rebrand/1041.png"
+  },
+  {
+    "id": 15,
+    "name": "HISTOIRES DE PARFUMS — 1740 Marquis De Sade",
+    "brand": "Histoires de Parfums",
+    "category": "txamardu",
+    "tagline": "Ծխախոտ, կաշի, հայեցական.",
+    "price": "75.000 դ.",
+    "volume": "100մլ",
+    "image": "https://prodajaparfema.rs/wp-content/uploads/2023/04/histoires-de-parfums-1740-marquis-de-sade-1.png"
+  },
+  {
+    "id": 16,
+    "name": "TRUSSARDI — My Land",
+    "brand": "Trussardi",
+    "category": "txamardu",
+    "tagline": "Իտալական ոճ, ջերմ, հողային.",
+    "price": "33.000 դ.",
+    "volume": "100մլ",
+    "image": "https://prodajaparfema.com/wp-content/uploads/2024/12/trussardi-my-land.png"
+  },
+  {
+    "id": 17,
+    "name": "EMPORIO ARMANI — Stronger With You Intensely",
+    "brand": "Emporio Armani",
+    "category": "txamardu",
+    "tagline": "Վանիլ, ծառ, ինտենսիվ.",
+    "price": "57.000 դ.",
+    "volume": "100մլ",
+    "image": "https://media.ulta.com/i/ulta/2628035"
+  },
+  {
+    "id": 18,
+    "name": "CARTIER — Déclaration EDT",
+    "brand": "Cartier",
+    "category": "txamardu",
+    "tagline": "Թթու, դառն, հայտարարություն.",
+    "price": "45.000 դ.",
+    "volume": "100մլ",
+    "image": "https://cartiermx.vteximg.com.br/arquivos/ids/185164-1000-1000/CR66100016_1.png?v=637735493630100000"
+  },
+  {
+    "id": 19,
+    "name": "VERSACE — Dylan Blue Pour Homme",
+    "brand": "Versace",
+    "category": "txamardu",
+    "tagline": "Ծովային, թարմ, հզոր.",
+    "price": "33.000 դ.",
+    "volume": "100մլ",
+    "image": "https://media.alina-cosmetics.com/prod/media/85/9a/bc/1636739323/f11e4cb681cb4402a545b5a695ec70a6.png"
+  },
+  {
+    "id": 20,
+    "name": "HERMÈS — Terre D'Hermès EDT",
+    "brand": "Hermès",
+    "category": "txamardu",
+    "tagline": "Հող, ծառ, ֆրանսիական կատարելություն.",
+    "price": "50.000 դ.",
+    "volume": "100մլ",
+    "image": "https://media.alina-cosmetics.com/prod/media/c2/9a/c1/1647372511/3346131402007.png"
+  },
+  {
+    "id": 21,
+    "name": "DIOR — Sauvage",
+    "brand": "Dior",
+    "category": "txamardu",
+    "tagline": "Վայրի, թարմ, անվերջ.",
+    "price": "65.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.08117a50bdb121e1f6bd997c67667e62?rik=4N9irxyW3XYXJQ&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0582%2f9879%2f4181%2fproducts%2fPicsArt_12-21-07.47.48_ccexpress.png%3fv%3d1640111216&ehk=wA29Fs5r%2fBsCe41easrDqR2m4%2f0LhHqrizCLpNyMmgc%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 22,
+    "name": "VERSACE — Man Eau Fraîche",
+    "brand": "Versace",
+    "category": "txamardu",
+    "tagline": "Թարմ, ջրային, կենսուրախ.",
+    "price": "33.000 դ.",
+    "volume": "100մլ",
+    "image": "https://tfcff1.vteximg.com.br/arquivos/ids/157983-1000-1000/8018365500037_1.png?v=637789874886200000"
+  },
+  {
+    "id": 23,
+    "name": "JEAN PAUL GAULTIER — Ultra Male",
+    "brand": "Jean Paul Gaultier",
+    "category": "txamardu",
+    "tagline": "Ինտենսիվ, զգայական, հզոր.",
+    "price": "55.000 դ.",
+    "volume": "125մլ",
+    "image": "https://medias.jeanpaulgaultier.com/medias/sys_master/images/h84/h90/9530414661662/9530414596126/9530414596126.png"
+  },
+  {
+    "id": 24,
+    "name": "JEAN PAUL GAULTIER — Le Beau Le Parfum",
+    "brand": "Jean Paul Gaultier",
+    "category": "txamardu",
+    "tagline": "Կոկոս, վանիլ, ծովային.",
+    "price": "65.000 դ.",
+    "volume": "125մլ",
+    "image": "https://media.alina-cosmetics.com/prod/media/94/92/b2/1701677105/8435415062190.png"
+  },
+  {
+    "id": 25,
+    "name": "TOM FORD — Noir Extreme",
+    "brand": "Tom Ford",
+    "category": "txamardu",
+    "tagline": "Արևելյան, ջերմ, շքեղ.",
+    "price": "80.000 դ.",
+    "volume": "100մլ",
+    "image": "https://media.alina-cosmetics.com/prod/thumbnail/7c/09/48/1672652291/888066130714_800x800.png"
+  },
+  {
+    "id": 26,
+    "name": "DIOR — Fahrenheit",
+    "brand": "Dior",
+    "category": "txamardu",
+    "tagline": "Բենզին, կաշի, դասական.",
+    "price": "65.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.647c7c0b2ee9701e81dae1c3dbd130d1?rik=%2f4gBv%2bWxHq%2fQyA&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 27,
+    "name": "AMOUAGE — Interlude Man",
+    "brand": "Amouage",
+    "category": "txamardu",
+    "tagline": "Բուրվառ, փայտ, ծով.",
+    "price": "120.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.luxurycosmetics.be/wp-content/uploads/2020/08/66%20Amouage_Interlude_Packshot-751x1024.png?v=1598780157"
+  },
+  {
+    "id": 28,
+    "name": "AMOUAGE — Overture Man",
+    "brand": "Amouage",
+    "category": "txamardu",
+    "tagline": "Փայտ, ծուխ, ուժ.",
+    "price": "120.000 դ.",
+    "volume": "100մլ",
+    "image": "https://hypefragrances.cl/wp-content/uploads/2023/02/OVERTURE-1.png"
+  },
+  {
+    "id": 29,
+    "name": "PARFUMS DE MARLY — Althaïr",
+    "brand": "Parfums de Marly",
+    "category": "txamardu",
+    "tagline": "Ֆրանսիական ոճ, թարմ, էլեգանտ.",
+    "price": "110.000 դ.",
+    "volume": "125մլ",
+    "image": "https://parfums-de-marly.com/cdn/shop/files/ALTHAIR_125ml_1_b8d8bbfd-39c0-4a1e-9e0e-2033139b3b23.png?v=1728460053&width=533"
+  },
+  {
+    "id": 30,
+    "name": "DOLCE & GABBANA — King EDP",
+    "brand": "Dolce & Gabbana",
+    "category": "txamardu",
+    "tagline": "Ջերմ, ոճային, թագավոր.",
+    "price": "40.000 դ.",
+    "volume": "100մլ",
+    "image": "https://media.ulta.com/i/ulta/2552508?w=1080&h=1080&fmt=auto"
+  },
+  {
+    "id": 31,
+    "name": "SHAIK — Opulent No77",
+    "brand": "Shaik",
+    "category": "txamardu",
+    "tagline": "Արևելյան շքեղություն, հզոր.",
+    "price": "95.000 դ.",
+    "volume": "100մլ",
+    "image": "https://designershaik.com/cdn/shop/products/OpulentMen_1_2400x2400_a73d0394-ec19-4707-b091-80a0749229d1_1200x630.png?v=1719469658"
+  },
+  {
+    "id": 32,
+    "name": "AMOUAGE — Journey Man",
+    "brand": "Amouage",
+    "category": "txamardu",
+    "tagline": "Ճամփորդություն, ծառ, ծուխ.",
+    "price": "120.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.ed53a35740147832dbac3f6b24cfad1d?rik=WjbgqX1aNmy0fQ&riu=http%3a%2f%2fmysticperfume.com%2fcdn%2fshop%2ffiles%2fUntitled_design_-_2024-12-19T175458.630.png%3fv%3d1734652530&ehk=hHR1s2LGTLZr8cZPLFzPn5nlsJG8Nd4y5aeGlHUt4oQ%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 33,
+    "name": "ROSENDO MATEU — N:5",
+    "brand": "Rosendo Mateu",
+    "category": "txamardu",
+    "tagline": "Ֆրանսիական, ծառ, ծախկ.",
+    "price": "80.000 դ.",
+    "volume": "100մլ",
+    "image": "https://coleccionandoaromas.cl/wp-content/uploads/2023/07/Rosendo-Mateu-No-5-de-Rosendo-Mateu-elite.png"
+  },
+  {
+    "id": 34,
+    "name": "PARFUMS DE MARLY — Pegasus",
+    "brand": "Parfums de Marly",
+    "category": "txamardu",
+    "tagline": "Թարմ, ձիաձուկ, ազնիվ.",
+    "price": "110.000 դ.",
+    "volume": "125մլ",
+    "image": "https://parfums-de-marly.com/cdn/shop/files/PEGASUS-PERFUME-200-PACK1-1X1_CENTERED.png?v=1744110298&width=1445"
+  },
+  {
+    "id": 35,
+    "name": "PARFUMS DE MARLY — Greenley",
+    "brand": "Parfums de Marly",
+    "category": "txamardu",
+    "tagline": "Կանաչ, ծաղիկ, արևային.",
+    "price": "110.000 դ.",
+    "volume": "125մլ",
+    "image": "https://th.bing.com/th/id/R.de007119b6c09bd947fa66dc25dc5386?rik=D7VjvnI7zUK7jg&riu=http%3a%2f%2fwww.myperfumeshop.com.au%2fcdn%2fshop%2ffiles%2fparfums-de-marly-greenley-edp-perfume-cologne-959168.png%3fv%3d1725294766%26width%3d2048&ehk=c7FJcoECrVbPUD8tqKV2vlouSqfXCPEoRw3JqcG6X0I%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 36,
+    "name": "DIOR — Dior Homme Sport",
+    "brand": "Dior",
+    "category": "txamardu",
+    "tagline": "Ակտիվ, թարմ, սպորտային.",
+    "price": "65.000 դ.",
+    "volume": "125մլ",
+    "image": "https://th.bing.com/th/id/R.1dd062062a373091947c6243a06e36c9?rik=uNa7adJ%2bUy%2bDuw&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 37,
+    "name": "ROJA PARFUMS — Elysium Pour Homme",
+    "brand": "Roja Parfums",
+    "category": "txamardu",
+    "tagline": "Ֆրանսիական շքեղ, ծաղիկ, ծառ.",
+    "price": "140.000 դ.",
+    "volume": "100մլ",
+    "image": "https://assets.goldenscent.com/catalog/product/cache/1/small_image/750x750/9df78eab33525d08d6e5fb8d27136e95/5/0/5060399670272-roja-parfums-roja-parfums-elysium-_m_-parfum-cologne-100-ml.png"
+  },
+  {
+    "id": 38,
+    "name": "PARFUMS DE MARLY — Herod",
+    "brand": "Parfums de Marly",
+    "category": "txamardu",
+    "tagline": "Ծխախոտ, վանիլ, ջերմ.",
+    "price": "110.000 դ.",
+    "volume": "125մլ",
+    "image": "https://cdn.shopify.com/s/files/1/2800/9132/products/Herod.png?v=1627250322"
+  },
+  {
+    "id": 39,
+    "name": "PARFUMS DE MARLY — Godolphin",
+    "brand": "Parfums de Marly",
+    "category": "txamardu",
+    "tagline": "Կաշի, ծով, շքեղ ոճ.",
+    "price": "110.000 դ.",
+    "volume": "125մլ",
+    "image": "https://cdn.shopify.com/s/files/1/2800/9132/products/Godolphin.png?v=1627250119"
+  },
+  {
+    "id": 40,
+    "name": "KENZO — Jungle Pour Homme",
+    "brand": "Kenzo",
+    "category": "txamardu",
+    "tagline": "Կայծ, ծառ, էկզոտիկ.",
+    "price": "45.000 դ.",
+    "volume": "100մլ",
+    "image": "https://d22fxaf9t8d39k.cloudfront.net/61db625a7d0391ed1262b229da77458e1200cea8d60991c1755bfe7f2c8d669574448.png"
+  },
+  {
+    "id": 41,
+    "name": "GUERLAIN — L'Homme Idéal Intense",
+    "brand": "Guerlain",
+    "category": "txamardu",
+    "tagline": "Նուշ, ծխախոտ, ջերմ.",
+    "price": "60.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.guerlain.com/dw/image/v2/BDCZ_PRD/on/demandware.static/-/Sites-GSA_master_catalog/default/dw7a39c039/primary_packshot_3/2023/Fragrances/MASCULINS/L_HOMME_IDEAL_INTENSE_EDP_100ml-226615.png?sw=900&sh=900"
+  },
+  {
+    "id": 42,
+    "name": "GUERLAIN — L'Homme Idéal",
+    "brand": "Guerlain",
+    "category": "txamardu",
+    "tagline": "Թարմ, ֆլորալ, կատարյալ.",
+    "price": "60.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.guerlain.com/dw/image/v2/BDCZ_PRD/on/demandware.static/-/Sites-GSA_master_catalog/default/dw200bc326/primary_packshot_3/2024/FRAGRANCE/L__HOMME_IDEAL_-_EDP_100ml-263403.png?sw=900&sh=900"
+  },
+  {
+    "id": 43,
+    "name": "GUCCI — Guilty Absolute",
+    "brand": "Gucci",
+    "category": "txamardu",
+    "tagline": "Կաշի, փայտ, թույն.",
+    "price": "50.000 դ.",
+    "volume": "90մլ",
+    "image": "https://cdn2.easycosmetic.de/images/Produkte/D2/gucci-guilty-absolute-pour-homme-edp-vapo-90ml.png"
+  },
+  {
+    "id": 44,
+    "name": "GIVENCHY — Gentleman Society Extreme",
+    "brand": "Givenchy",
+    "category": "txamardu",
+    "tagline": "Ռոզ, iris, ծառ, ոճ.",
+    "price": "70.000 դ.",
+    "volume": "100մլ",
+    "image": "https://cdn2.easycosmetic.ch/images/Produkte/D2/givenchy-gentleman-society-extreme-eau-de-parfum-spray-60ml.png"
+  },
+  {
+    "id": 45,
+    "name": "VERSACE — Pour Homme",
+    "brand": "Versace",
+    "category": "txamardu",
+    "tagline": "Ծովային, թարմ, արևային.",
+    "price": "33.000 դ.",
+    "volume": "90մլ",
+    "image": "https://cdn.scentbird.com/product/rebrand/260.png"
+  },
+  {
+    "id": 101,
+    "name": "Bleu de Chanel EDP",
+    "brand": "Chanel",
+    "category": "kanaci",
+    "tagline": "Թարմ, թեթև, ժամանակակից.",
+    "price": "65.000 դ.",
+    "volume": "90մլ",
+    "image": "https://media.alina-cosmetics.com/prod/media/76/14/bb/1636739241/25c816ff44054a648eddacc0651c8286.png"
+  },
+  {
+    "id": 102,
+    "name": "JIMMY CHOO — EDP",
+    "brand": "Jimmy Choo",
+    "category": "kanaci",
+    "tagline": "Ֆլորալ, ծառ, կիրք.",
+    "price": "33.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.8ff7a2ebf578118c01b20ee8f0ad7ea4?rik=aiAnxjQgXJshQg&riu=http%3a%2f%2fmyperfumeshop.com.au%2fcdn%2fshop%2fproducts%2fjimmy-choo-edp-perfume-for-her-547338.png%3fv%3d1609925666%26width%3d2048&ehk=z4JszYO0UfHRNj%2ffCDlLo9r6dPc7O0jaewXh1I1c%2fdo%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 103,
+    "name": "JIMMY CHOO — Illicit EDP",
+    "brand": "Jimmy Choo",
+    "category": "kanaci",
+    "tagline": "Ծաղիկ, ամբերային, հրապուրիչ.",
+    "price": "36.000 դ.",
+    "volume": "100մլ",
+    "image": "https://prodajaparfema.rs/wp-content/uploads/2022/07/Jimmy-Choo-Illicit-min.png"
+  },
+  {
+    "id": 104,
+    "name": "MOSCHINO — Toy 2 Bubble Gum",
+    "brand": "Moschino",
+    "category": "kanaci",
+    "tagline": "Ուրախ, մրգային, կախարդ.",
+    "price": "30.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.c2974d22683cb069b79d37fbc79aa94c?rik=YPC7Hfffm1oizg&riu=http%3a%2f%2fwww.myperfumeshop.com.au%2fcdn%2fshop%2fproducts%2fmoschino-toy-2-bubble-gum-edt-for-women-perfume-cologne-559620.png%3fv%3d1702541892%26width%3d2048&ehk=sCI%2bLkZgbnCZ8zsWtHXy%2biJy1TQT9kP8YMA3PEorsNs%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 105,
+    "name": "KILIAN — Good Girl Gone Bad",
+    "brand": "Kilian",
+    "category": "kanaci",
+    "tagline": "Ծաղիկ, ծիրան, զգայական.",
+    "price": "120.000 դ.",
+    "volume": "50մլ",
+    "image": "https://product.hstatic.net/200000561331/product/kilian-good-girl-gone-bad-woo-50ml-chollo.vn__b635fbeebba949a49ecec5229554376a.png"
+  },
+  {
+    "id": 106,
+    "name": "GIORGIO ARMANI — Sì Intense 2021",
+    "brand": "Giorgio Armani",
+    "category": "kanaci",
+    "tagline": "Ինտենսիվ, ծաղիկ, կիրք.",
+    "price": "60.000 դ.",
+    "volume": "100մլ",
+    "image": "https://1.bp.blogspot.com/-zKKJAWsz5Xs/YFOfI7yWuzI/AAAAAAAAWIc/RTz1jx6DBXc_S6ZEfvqchCrsrghr5zeIQCLcBGAsYHQ/w640-h640/ARMANI%2BSI%2BEAU%2BDE%2BPARFUM%2BINTENSE%2B%25282%2529.png"
+  },
+  {
+    "id": 107,
+    "name": "DOLCE & GABBANA — L'Imperatrice 3",
+    "brand": "Dolce & Gabbana",
+    "category": "kanaci",
+    "tagline": "Դեղձ, ծաղիկ, արևային.",
+    "price": "30.000 դ.",
+    "volume": "100մլ",
+    "image": "https://cdn.scentbird.com/product/rebrand/35.png"
+  },
+  {
+    "id": 108,
+    "name": "CHANEL — Coco Mademoiselle",
+    "brand": "Chanel",
+    "category": "kanaci",
+    "tagline": "Ֆրանսիական, ոճ, կատարելություն.",
+    "price": "70.000 դ.",
+    "volume": "100մլ",
+    "image": "https://dohieuus.com/wp-content/uploads/2023/07/39-1.png"
+  },
+  {
+    "id": 109,
+    "name": "LANCÔME — La Vie Est Belle",
+    "brand": "Lancôme",
+    "category": "kanaci",
+    "tagline": "Ծիրան, iris, երջանկություն.",
+    "price": "60.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.lancome.es/on/demandware.static/-/Sites-lac-master-catalog/default/dwfae92c59/images/PACKSHOTS/FRAGRANCE/LA_VIE_EST_BELLE/31301r_La_Vie_Est_Belle_Legere/3605533109274_La_Vie_Est_Belle_Legere.png"
+  },
+  {
+    "id": 110,
+    "name": "AMOUAGE — Honour Woman",
+    "brand": "Amouage",
+    "category": "kanaci",
+    "tagline": "Ծաղիկ, oud, բարձր արվեստ.",
+    "price": "120.000 դ.",
+    "volume": "100մլ",
+    "image": "https://rooyas.com/cdn/shop/products/honour_bottle_front_man_00000.png?v=1637879183&width=1946"
+  },
+  {
+    "id": 111,
+    "name": "GUCCI — Flora Gorgeous Magnolia",
+    "brand": "Gucci",
+    "category": "kanaci",
+    "tagline": "Մատնաչը, ծաղիկ, գեղեցկություն.",
+    "price": "70.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.66a7134d7f1fa77d3bca74d350777c05?rik=0KlZxmvqdC%2bRLQ&riu=http%3a%2f%2fwww.myperfumeshop.com.au%2fcdn%2fshop%2ffiles%2fgucci-flora-gorgeous-magnolia-edp-perfume-cologne-873498.png%3fv%3d1713956463%26width%3d2048&ehk=PiewcGB8mTZQA9G%2b9L731uBrIgK%2bjBHf0Mx%2fE8Z3FbI%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 112,
+    "name": "BURBERRY — Goddess",
+    "brand": "Burberry",
+    "category": "kanaci",
+    "tagline": "Լավանդա, ջերմ, աստվածային.",
+    "price": "67.000 դ.",
+    "volume": "100մլ",
+    "image": "https://ifragranceofficial.com/wp-content/uploads/2024/06/burberry-goddes-eau-de-parfum-intense-2024.png"
+  },
+  {
+    "id": 113,
+    "name": "GUCCI — Flora Gorgeous Gardenia",
+    "brand": "Gucci",
+    "category": "kanaci",
+    "tagline": "Գardenia, ծաղիկ, կոկոս.",
+    "price": "70.000 դ.",
+    "volume": "100մլ",
+    "image": "https://media.alina-cosmetics.com/prod/media/3d/7b/02/1636740216/b9d669c76f9e46f3a2685839301c29b1.png"
+  },
+  {
+    "id": 114,
+    "name": "ETAT LIBRE D'ORANGE — Rien Intense Incense",
+    "brand": "Etat Libre d'Orange",
+    "category": "kanaci",
+    "tagline": "Բուրվառ, ծուխ, կաշի.",
+    "price": "65.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.72e443083be5f45ef6d4210bf24f66e7?rik=eb0iEb3%2fKVbxVA&riu=http%3a%2f%2fwww.myperfumeshop.com.au%2fcdn%2fshop%2ffiles%2fetat-libre-dorange-rien-intense-incense-edp-perfume-cologne-695881.png%3fv%3d1722204079%26width%3d2048&ehk=o0BXS0Ho34C6QIyPgOnJH9JouEuWXG%2f8cRoolHSwiuA%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 115,
+    "name": "GUCCI — Flora Gorgeous Jasmine",
+    "brand": "Gucci",
+    "category": "kanaci",
+    "tagline": "Ջasmine, ծաղիկ, թարմ.",
+    "price": "70.000 դ.",
+    "volume": "100մլ",
+    "image": "https://media.ulta.com/i/ulta/2599239?w=720&h=720&fmt=png"
+  },
+  {
+    "id": 116,
+    "name": "GIORGIO ARMANI — Sì",
+    "brand": "Giorgio Armani",
+    "category": "kanaci",
+    "tagline": "Blackcurrant, ծաղիկ, ծառ.",
+    "price": "55.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.giorgioarmanibeauty-usa.com/on/demandware.static/-/Sites-gab-master-catalog/default/dw2b0eccef/products/A218/armani-si_eau_de_parfum-3605521816658-100ml_3000.png"
+  },
+  {
+    "id": 117,
+    "name": "GRITTI — Tutu",
+    "brand": "Gritti",
+    "category": "kanaci",
+    "tagline": "Ծաղիկ, Իտալական, պարուհի.",
+    "price": "85.000 դ.",
+    "volume": "100մլ",
+    "image": "https://art-parfums.com/cdn/shop/files/gritti-tutu.png?v=1707484856&width=1000"
+  },
+  {
+    "id": 118,
+    "name": "AMOUAGE — Guidance",
+    "brand": "Amouage",
+    "category": "kanaci",
+    "tagline": "Oud, ծաղիկ, ոգևորիչ.",
+    "price": "130.000 դ.",
+    "volume": "100մլ",
+    "image": "https://ratner-beauty.store/image/catalog/product-foto/Amouage/amouage-guidance.png"
+  },
+  {
+    "id": 201,
+    "name": "Essential Parfums — Bois Imperial",
+    "brand": "Essential Parfums",
+    "category": "unisex",
+    "tagline": "Oud, sandalwood, կայսերական.",
+    "price": "40.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.curtiprofumeria.it/wp-content/uploads/2023/06/Bois-Imperial-by-Quentin-Bisch-Essential-Parfums-Paris.png"
+  },
+  {
+    "id": 202,
+    "name": "BYREDO — 1996",
+    "brand": "Byredo",
+    "category": "unisex",
+    "tagline": "Ոճ, հիշողություն, մինիմaliste.",
+    "price": "110.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.myperfumeshop.com.au/cdn/shop/products/byredo-1996-edp-perfume-cologne-967677.png?v=1678442128&width=2048"
+  },
+  {
+    "id": 203,
+    "name": "ATTAR COLLECTION — Khaltat Night",
+    "brand": "Attar Collection",
+    "category": "unisex",
+    "tagline": "Արևելյան, oud, գիշեր.",
+    "price": "45.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.99ac3b75934a54253706e9cae2b80b99?rik=lGpxGiiq8BSBZw&riu=http%3a%2f%2fwww.myperfumeshop.com.au%2fcdn%2fshop%2ffiles%2fattar-collection-khaltat-night-edp-perfume-cologne-549105.png%3fv%3d1710965915%26width%3d2048&ehk=2f0Vqmm%2b%2fky4gHv9Z%2flu8AKop8IAsDunLWji9CQvfEQ%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 204,
+    "name": "TOM FORD — Black Orchid EDP",
+    "brand": "Tom Ford",
+    "category": "unisex",
+    "tagline": "Orchid, truffle, շքեղ.",
+    "price": "75.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.tomfordbeauty.com/cdn/shop/files/tfb_sku_T00501_2000x2000_0.png?v=1781142646"
+  },
+  {
+    "id": 205,
+    "name": "INITIO — Side Effect",
+    "brand": "Initio",
+    "category": "unisex",
+    "tagline": "Vanilla, musk, ռոմ.",
+    "price": "120.000 դ.",
+    "volume": "90մլ",
+    "image": "https://escentual.com/cdn/shop/files/initio-side-effect-eau-de-parfum-spray-90ml.png?v=1729190309&width=1066"
+  },
+  {
+    "id": 206,
+    "name": "ATTAR COLLECTION — Musk Kashmir",
+    "brand": "Attar Collection",
+    "category": "unisex",
+    "tagline": "Musk, cachemire, նրբություն.",
+    "price": "45.000 դ.",
+    "volume": "100մլ",
+    "image": "https://juliuslevi.com/wp-content/uploads/2022/09/Julius-Levi-27.png"
+  },
+  {
+    "id": 207,
+    "name": "AMOUAGE — Royal Tobacco Opus XIV",
+    "brand": "Amouage",
+    "category": "unisex",
+    "tagline": "Ծխախոտ, oud, թագավոր.",
+    "price": "130.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.767dadfc792fc8c79f8c50f2f67d50cc?rik=KCuo6l0%2bMvNVRA&riu=http%3a%2f%2fwww.myperfumeshop.com%2fcdn%2fshop%2fproducts%2famouage-library-collection-opus-xiv-royal-tobacco-edp-perfume-cologne-444682.png%3fv%3d1702281358%26width%3d2048&ehk=lgL8J6si6%2fyLgqyAhn1nt31J%2fx03E5NUm0xQ4Bg0UTU%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 208,
+    "name": "KILIAN — Black Phantom \"Memento Mori\"",
+    "brand": "Kilian",
+    "category": "unisex",
+    "tagline": "Ռոմ, vanilla, մահ ու կյանք.",
+    "price": "115.000 դ.",
+    "volume": "50մլ",
+    "image": "https://scentminis.lk/wp-content/uploads/2024/06/7.png"
+  },
+  {
+    "id": 209,
+    "name": "KILIAN — Apple Brandy",
+    "brand": "Kilian",
+    "category": "unisex",
+    "tagline": "Խնձոր, brandy, ջերմ.",
+    "price": "120.000 դ.",
+    "volume": "50մլ",
+    "image": "https://th.bing.com/th/id/R.144e7c7206646d4477a4e67d14e716b1?rik=mUis62Ava8CUkA&riu=http%3a%2f%2fwww.myperfumeshop.com.au%2fcdn%2fshop%2fproducts%2fkilian-apple-brandy-on-the-rocks-edp-perfume-cologne-723937.png%3fv%3d1702711380%26width%3d2048&ehk=tRUlhg5b6cDnshLoilMp1ZfMIRJAhi%2bx34gPAZ3amE0%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 210,
+    "name": "NASOMATTO — Black Afgano",
+    "brand": "Nasomatto",
+    "category": "unisex",
+    "tagline": "Cannabis, oud, խորհրդավոր.",
+    "price": "67.000 դ.",
+    "volume": "30մլ",
+    "image": "https://media.perfumelounge.eu/file/perfumelounge/perfumelounge/original_images/Nasomatto_-_Black_Afgano_extrait_de_parfum_30_ml.png"
+  },
+  {
+    "id": 211,
+    "name": "BOIS 1920 — Cannabis",
+    "brand": "Bois 1920",
+    "category": "unisex",
+    "tagline": "Բույս, ծուխ, Իտalian ոճ.",
+    "price": "60.000 դ.",
+    "volume": "100մլ",
+    "image": "https://cdn2.easycosmetic.nl/images/Produkte/D2/bois-1920-cannabis-edp-vapo-100ml.png"
+  },
+  {
+    "id": 212,
+    "name": "THOMAS KOSMALA — No:4 Après l'Amour",
+    "brand": "Thomas Kosmala",
+    "category": "unisex",
+    "tagline": "Vanilla, musk, սիրո հետ.",
+    "price": "70.000 դ.",
+    "volume": "100մլ",
+    "image": "https://tienperfume.vn/wp-content/uploads/2023/06/Thomas-Kosmala-No.-4-Apres-lAmour-EDP-100ml.png"
+  },
+  {
+    "id": 213,
+    "name": "MARC-ANTOINE BARROIS — Ganymede",
+    "brand": "Marc-Antoine Barrois",
+    "category": "unisex",
+    "tagline": "Iris, oud, աստղային.",
+    "price": "82.000 դ.",
+    "volume": "100մլ",
+    "image": "https://ratner-beauty.store/image/catalog/product-foto/Marc-antoine-Barrois/Marc-Antoine-Barrois-Ganymede-ratner-beauty-store.png"
+  },
+  {
+    "id": 214,
+    "name": "ORTO PARISI — Megamare",
+    "brand": "Orto Parisi",
+    "category": "unisex",
+    "tagline": "Ծով, musk, ուժ.",
+    "price": "75.000 դ.",
+    "volume": "50մլ",
+    "image": "https://www.myperfumeshop.com.au/cdn/shop/products/orto-parisi-megamare-parfum-perfume-cologne-127807.png?v=1707081909&width=2048"
+  },
+  {
+    "id": 215,
+    "name": "KILIAN — Back to Black \"Aphrodisiac\"",
+    "brand": "Kilian",
+    "category": "unisex",
+    "tagline": "Honey, tobacco, հրապուրիչ.",
+    "price": "120.000 դ.",
+    "volume": "50մլ",
+    "image": "https://th.bing.com/th/id/R.d2836f5aba6ca0a44e15dc108a21700d?rik=aEm%2b6Yu62gDCPQ&riu=http%3a%2f%2fnichescents.com.au%2fcdn%2fshop%2ffiles%2fsmokinghot.png%3fv%3d1696922197&ehk=1gfLEJhzJqHYN%2bsSsgfIZAzK2nBT1RW3jeJmtlbJNl8%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 216,
+    "name": "MARC-ANTOINE BARROIS — B683",
+    "brand": "Marc-Antoine Barrois",
+    "category": "unisex",
+    "tagline": "Iris, oud, ֆranc.",
+    "price": "80.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.perfumelounge.eu/_next/image?url=https:%2F%2Fmedia.perfumelounge.eu%2Ffile%2Fperfumelounge%2Fperfumelounge%2Foriginal_images%2FMarc-Antoine_Barrois_-_B683_eau_de_parfum_100_ml.png&w=2048&q=100"
+  },
+  {
+    "id": 217,
+    "name": "TOM FORD — Tobacco Vanille",
+    "brand": "Tom Ford",
+    "category": "unisex",
+    "tagline": "Ծխախոտ, vanilla, շքեղ.",
+    "price": "170.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.8858aa51a002e20bf39a4c3e3aab6ee6?rik=oIZ0l52OMCOasQ&riu=http%3a%2f%2fscentsperfumes.com.au%2fcdn%2fshop%2fproducts%2ftom-ford-tobacco-vanille-100ml_1200x1200.png%3fv%3d1635747740&ehk=92eTSP1iiqYmjjtaLFDRpMtSKTmKszLGNCP2SYZdQzY%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 218,
+    "name": "INITIO — Oud For Greatness",
+    "brand": "Initio",
+    "category": "unisex",
+    "tagline": "Oud, musk, ռustre.",
+    "price": "115.000 դ.",
+    "volume": "90մլ",
+    "image": "https://www.myperfumeshop.com.au/cdn/shop/products/initio-parfums-prives-black-gold-oud-for-greatness-edp-perfume-cologne-145413.png?v=1707601166&width=1000"
+  },
+  {
+    "id": 219,
+    "name": "TOM FORD — Fucking Fabulous",
+    "brand": "Tom Ford",
+    "category": "unisex",
+    "tagline": "Կաշի, ored, անզուգական.",
+    "price": "185.000 դ.",
+    "volume": "100մլ",
+    "image": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/72444/ef7f1152-2ee2-4893-8f32-700e9b82dc29-fucking-fabulous-tom-ford-eau-de-parfum-perfume-unissex-100ml.png"
+  },
+  {
+    "id": 220,
+    "name": "XERJOFF — XJ 1861 Naxos",
+    "brand": "Xerjoff",
+    "category": "unisex",
+    "tagline": "Honey, tobacco, Իտalian.",
+    "price": "110.000 դ.",
+    "volume": "100մլ",
+    "image": "https://coleccionandoaromas.cl/wp-content/uploads/2024/10/Naxos-de-Xerjoff.png"
+  },
+  {
+    "id": 221,
+    "name": "CHANEL — Allure Homme",
+    "brand": "Chanel",
+    "category": "unisex",
+    "tagline": "Թարմ, ծառ, ֆranc ոճ.",
+    "price": "60.000 դ.",
+    "volume": "100մլ",
+    "image": "https://www.hebe.pl/on/demandware.static/-/Sites-PL_Master_Catalog/default/dwa39b7011/images/hi-res/42052702__woda_toaletowa_meskie_50_ml_MP_54809909_p__reviewed__p.png"
+  },
+  {
+    "id": 222,
+    "name": "ORLOV — De Young Red",
+    "brand": "Orlov",
+    "category": "unisex",
+    "tagline": "Կարմիր, հուժ, ոճ.",
+    "price": "75.000 դ.",
+    "volume": "75մլ",
+    "image": "https://www.orlovparfums.com/wp-content/uploads/2024/05/de-young-red-png-1000px.png"
+  },
+  {
+    "id": 223,
+    "name": "BYREDO — Bal d'Afrique",
+    "brand": "Byredo",
+    "category": "unisex",
+    "tagline": "Աֆрика, ծաղիկ, ոճ.",
+    "price": "110.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.d48a2aef091167034671a923222b656e?rik=nEhPfpc6TCoE5A&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0388%2f7287%2f5140%2fproducts%2fbyredo-bal-dafrique-edp-perfume-perfume-cologne-789677.png%3fv%3d1631346276&ehk=L28bRE27gV31Jl5OJw%2fjnzLD7LmA0Osx7RS8iEYFMHE%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 224,
+    "name": "TOM FORD — Ombre Leather",
+    "brand": "Tom Ford",
+    "category": "unisex",
+    "tagline": "Կաշի, ծաղիկ, jtened.",
+    "price": "77.000 դ.",
+    "volume": "100մլ",
+    "image": "https://xxivstore.com/wp-content/uploads/2020/06/tom-ford-ombre-leather-orchard.vn_.png"
+  },
+  {
+    "id": 225,
+    "name": "HISTOIRES DE PARFUMS — Fidelis",
+    "brand": "Histoires de Parfums",
+    "category": "unisex",
+    "tagline": "Վetiver, oud, հավատ.",
+    "price": "75.000 դ.",
+    "volume": "60մլ",
+    "image": "https://prodajaparfema.com/wp-content/uploads/2024/12/histoires-de-parfums-fidelis.png"
+  },
+  {
+    "id": 226,
+    "name": "TOM FORD — Oud Wood",
+    "brand": "Tom Ford",
+    "category": "unisex",
+    "tagline": "Oud, sandalwood, հzor.",
+    "price": "160.000 դ.",
+    "volume": "100մլ",
+    "image": "https://sdcdn.io/tf/tf_sku_T1XG01_2000x2000_0.png"
+  },
+  {
+    "id": 227,
+    "name": "MANCERA — Hindu Kush",
+    "brand": "Mancera",
+    "category": "unisex",
+    "tagline": "Oud, rose, լեռ.",
+    "price": "55.000 դ.",
+    "volume": "120մլ",
+    "image": "https://prodajaparfema.rs/wp-content/uploads/2022/10/Mancera-Hindu-Kush.png"
+  },
+  {
+    "id": 228,
+    "name": "GRITTI — Pomelo Sorrento",
+    "brand": "Gritti",
+    "category": "unisex",
+    "tagline": "Pomelo, citrus, Иtalia.",
+    "price": "75.000 դ.",
+    "volume": "100մլ",
+    "image": "https://art-parfums.com/cdn/shop/files/gritti-pomelo-sorrento.png?v=1707483982&width=1200"
+  },
+  {
+    "id": 229,
+    "name": "GRITTI — Duchessa",
+    "brand": "Gritti",
+    "category": "unisex",
+    "tagline": "Ծаղиկ, oud, Duchessa.",
+    "price": "85.000 դ.",
+    "volume": "100մլ",
+    "image": "https://ratner-beauty.store/image/catalog/product-foto/Gritti/gritti-Duchessa-Prive-ratner-beauty-store.png"
+  },
+  {
+    "id": 230,
+    "name": "MANCERA — Cedrat Boise",
+    "brand": "Mancera",
+    "category": "unisex",
+    "tagline": "Citrus, oud, ֆranc.",
+    "price": "55.000 դ.",
+    "volume": "120մլ",
+    "image": "https://scentminis.lk/wp-content/uploads/2024/03/Mancera-Cedrat-Boise.png"
+  },
+  {
+    "id": 231,
+    "name": "FRANCK BOCLET — Cocaïne",
+    "brand": "Franck Boclet",
+    "category": "unisex",
+    "tagline": "Citrus, musk, ոճ.",
+    "price": "80.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.1e94e2974c3685ddd10ed97b1a477b88?rik=a%2f3MPVx6AmpmeA&riu=http%3a%2f%2fscentira.in%2fcdn%2fshop%2ffiles%2fCOCAINE_FRANK_BOCLET_c99f6cf9-bc24-4af8-8d03-a08f3b4fccb2.png%3fcrop%3dcenter%26height%3d1200%26v%3d1715355506%26width%3d1200&ehk=mY0ceT9iZw4Rh6pXKFvjPheGSi3JoIKClpVI8yQ6%2fV8%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 232,
+    "name": "NISHANE — Hacivat",
+    "brand": "Nishane",
+    "category": "unisex",
+    "tagline": "Pineapple, oud, Турция.",
+    "price": "140.000 դ.",
+    "volume": "100մլ",
+    "image": "https://th.bing.com/th/id/R.1686ae2d96bcd09d4a81dfe9e827b9e6?rik=Q1B72rlKMUal7g&riu=http%3a%2f%2fscentsperfumes.com.au%2fcdn%2fshop%2fproducts%2fHacivat100mlxdp_1200x1200.png%3fv%3d1634897888&ehk=%2f%2fT7CRXehvROtoQrUBImynB8WGbecC3%2bRYhUp5LfYAo%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 233,
+    "name": "KILIAN — Angels Share",
+    "brand": "Kilian",
+    "category": "unisex",
+    "tagline": "Cognac, vanilla, կnarm.",
+    "price": "120.000 դ.",
+    "volume": "50մլ",
+    "image": "https://badshahscents.com/cdn/shop/files/angels__share-removebg-preview.png?v=1699051089&width=1946"
+  },
+  {
+    "id": 234,
+    "name": "EX NIHILO — Fleur Narcotique",
+    "brand": "Ex Nihilo",
+    "category": "unisex",
+    "tagline": "Ծаղиկ, peach, narcotique.",
+    "price": "130.000 դ.",
+    "volume": "100մλ",
+    "image": "https://viinriic.com/wp-content/uploads/2021/03/Fleur-Narcotique-100-ExNihilo-March-2021.png"
+  },
+  {
+    "id": 235,
+    "name": "ELECTIMUSS LONDON — Imperium",
+    "brand": "Electimuss London",
+    "category": "unisex",
+    "tagline": "Amber, leather, imperial.",
+    "price": "90.000 դ.",
+    "volume": "100մλ",
+    "image": "https://www.myperfumeshop.ae/cdn/shop/files/electimuss-imperium-pure-parfum-714627.png?v=1740783654&width=1000"
+  },
+  {
+    "id": 236,
+    "name": "EX NIHILO — The Hedonist",
+    "brand": "Ex Nihilo",
+    "category": "unisex",
+    "tagline": "Vanilla, musk, հautnesse.",
+    "price": "130.000 դ.",
+    "volume": "100մλ",
+    "image": "https://xxivstore.com/wp-content/uploads/2023/12/Nuoc-hoa-Ex-Nihilo-The-Hedonist.png"
+  },
+  {
+    "id": 237,
+    "name": "LATTAFA — Khamrah",
+    "brand": "Lattafa",
+    "category": "unisex",
+    "tagline": "Oud, vanilla, odorant.",
+    "price": "22.000 դ.",
+    "volume": "100մλ",
+    "image": "https://vypstore.cl/wp-content/uploads/2023/09/khamrah-lattafa-4b08783a-33e8-4757-b2f0-a813ea45213c-1024x1024.png"
+  },
+  {
+    "id": 238,
+    "name": "ORTO PARISI — Boccanera",
+    "brand": "Orto Parisi",
+    "category": "unisex",
+    "tagline": "Ծuxt, incense, orto.",
+    "price": "75.000 դ.",
+    "volume": "50մλ",
+    "image": "https://media.perfumelounge.eu/file/perfumelounge/perfumelounge/original_images/Orto_Parisi_-_Boccanera_extrait_de_parfum_50_ml.png"
+  },
+  {
+    "id": 239,
+    "name": "TOM FORD — Tuscan Leather",
+    "brand": "Tom Ford",
+    "category": "unisex",
+    "tagline": "Կاши, raspberry, Тусcamp.",
+    "price": "185.000 դ.",
+    "volume": "100մλ",
+    "image": "https://sdcdn.io/tf/tf_sku_T00H01_2000x2000_0.png"
+  },
+  {
+    "id": 240,
+    "name": "ORTO PARISI — Bergamask",
+    "brand": "Orto Parisi",
+    "category": "unisex",
+    "tagline": "Bergamot, musk, orto.",
+    "price": "75.000 դ.",
+    "volume": "50մλ",
+    "image": "https://scentira.in/cdn/shop/files/orto_parisi_bergamask_EDP_1_95e4cda7-2ffa-4340-b102-a08857ab467d.png?crop=center&height=1200&v=1745393998&width=1200"
+  },
+  {
+    "id": 241,
+    "name": "NASOMATTO — Pardon",
+    "brand": "Nasomatto",
+    "category": "unisex",
+    "tagline": "Oud, tobacco, macho.",
+    "price": "67.000 դ.",
+    "volume": "30մλ",
+    "image": "https://www.parfumerie-stefani.ch/wp-content/uploads/2021/02/Nasomatto_Pardon_Extrait_30ml_nicht_an_Lager.png"
+  },
+  {
+    "id": 242,
+    "name": "ARTE OLFATTO — Black Hashish",
+    "brand": "Arte Olfatto",
+    "category": "unisex",
+    "tagline": "Cannabis, incense, artisan.",
+    "price": "65.000 դ.",
+    "volume": "100մλ",
+    "image": "https://www.myperfumeshop.co.nz/cdn/shop/files/arteolfatto-black-hashish-extrait-de-parfum-perfume-cologne-119829.png?v=1712852817&width=1000"
+  }
+]
